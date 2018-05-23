@@ -71,7 +71,6 @@ client.get(str1,token,function(data, response){
         try { // 때로는 예약배송이 앞에 적혀 있는 경우가 있는데, 이를 거르기 위한 코드
             var brandname = partpartbrand.split("\[")[2];
             var realbrand = brandname.split("\]")[0];
-            brandArr.push(realbrand);
         } catch(err) {
             var brandname = partpartbrand.split("\[")[1];
             var realbrand = brandname.split("\]")[0];
