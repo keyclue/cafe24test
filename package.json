@@ -10,11 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.7",
-    "encoding": "^0.1.12",
-    "express": "^4.16.3",
-    "iconv-lite": "^0.4.23",
-    "json2csv": "^4.1.2",
-    "json2xls": "^0.1.2",
-    "node-rest-client": "^3.1.0"
+    "express": "^4.16.3"
   }
 }
